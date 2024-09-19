@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+Warang+Citi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Sans+Condensed:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "poppins", sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+header {
+background-color: rgb(0, 0, 0);
+width: 100%;
+position:fixed;
+z-index: 999;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 200px;
+}
+.logo{
+text-decoration: none;
+color:rgb(255, 255, 255);
+text-transform: uppercase;
+font-weight:800;
+font-size:1.8em;
+
+}
+ .navigation a{
+  text-decoration: none;
+  color:rgb(98, 100, 99);
+  font-size: 1.1em;
+  font-weight: 400;
+  padding-left: 30px;
+ }
+
+ .navigation a:hover{
+    color:rgb(49, 226, 197);
+
+ }
+ section {
+  padding: 100px 200px;
+
+ }
+ .main {
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   background: url(imegs/باتان.jpg) no-repeat;
+   background:cover;
+   background-position: center;
+   background-attachment: fixed;
+ }
+
+.main h2 {
+  color:rgb(0, 0, 0);
+  font-size: 1.4em;
+  font-weight:600;
+}
+
+.main h2 span {
+  display: inline-block;
+  margin-top: 10px;
+  color:rgb(169, 179, 153);
+  font-size: 3em;
+  font-weight: 700;
+}
+.main h3 {
+  color:rgb(176, 218, 194);
+  font-size: 1.4em;
+  font-weight:500;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.main-btn {
+text-decoration: none;
+color:rgb(0, 0, 0);
+background-color: rgb(221, 221, 221);
+font-size: 1.1em;
+font-weight: 600;
+display: inline-block;
+padding: 0.9348em;
+letter-spacing: 1px;
+border-radius: 15px;
+margin-bottom: 22px;
+transition: 0.8s ease;
+} 
+.main-btn:hover {
+   background-color: antiquewhite;
+   transform: scale(1.1);
+
+}
+.social-icons a {
+  color:rgb(168, 168, 168);
+  color:rgb(168, 168, 168);
+  font-size: 1.7em;
+  padding-right: 30px;
+
+}
+
+.title {
+display: flex;
+justify-content: center;
+color:rgb(91, 177, 91);
+font-size:2.2em;
+font-weight: 800;
+margin-bottom: 30px;
+}
+.content {
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.card {
+  background-color: rgb(255, 255, 255);
+  width: 21.24em;
+  box-shadow: 0  5px 25px rgb(1 1 1 / 15%);
+  border-radius: 10px;
+  padding: 24px;
+  margin: 14px;
+  transition: 0.8s ease;
+
+}
+.card:hover {
+  transform: scale(1.1);
+
+}
+.icon {
+  color:rgb(0, 0, 0);
+  font-size: Bem;
+  text-align: center;
+
+}
+
+.info {
+text-align: center;
+}
+.info h3 {
+  color:rgb(48, 149, 156);
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+
+
+}
+.projects {
+background-color: rgb(37, 37, 37);
+}
+.projects.content {
+
+margin-top: 30px ;
+
+}
+.project-title {
+
+  background-color: rgb(0, 0, 0);
+
+}
+.project-card {
+
+  background-color: azure;
+  border: 1px solid #fff;
+  min-height: 14em;
+
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.8s ease;
+
+}
+.project-card:hover{
+
+  transform: scale(1.1);
+}
+
+.project-card :hover .project-image{
+
+opacity: 0.9;
+
+}
+.project-image img{
+  width: 100%;
+
+}
+.project-info {
+
+padding: 1em;
+
+}
+.contact.icon {
+  font-size: 4.4em;
+}
+.contact.info h3 {
+  color:rgb(82, 71, 71);
+
+}
+.footer {
+background-color: rgb(0, 0, 0);
+color:#a0a3a1;
+padding: 1em;
+display:flex;
+justify-content: space-between;
+
+}
+.footer.title{
+font-size: 1.3em;
+font-weight: 400;
+}
+.footer-title span {
+  color:#ffffff8e;
+
+}
+.footer-social icons a {
+  color: rgb(151, 151, 151);
+font-size:1em;
+padding: 0 12px 0 0;
+}
